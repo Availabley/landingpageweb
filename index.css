@@ -1,0 +1,331 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background: url(omo/dream.jpeg)no-repeat center center/cover;
+    filter: brightness(95%);
+}
+.head-top{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+@media screen and (max-width:600px){
+    .head-top{
+        display: flex;
+        gap: 2rem;
+    }
+    .text p{
+        display: none;
+    }
+}
+.head-top h2{
+    color: white;
+    background-color: rgb(39, 63, 72);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 10px;
+    border-bottom-left-radius: 50px;
+}
+.head-top h4{
+    float: right;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgb(39, 63, 72);
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+.text h1{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border-top: 5px solid rgb(39, 63, 72);
+    background-color: orangered;
+}
+.text h4{
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(39, 63, 72);
+    padding: 10px;
+}
+.form-container{
+    background-color: white;
+    color: rgb(39, 63, 72);
+    margin: 30px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    
+}
+.form-container form{
+    margin: 30px;
+}
+.form-container form input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid gray;
+}
+.form-container form #form-btn{
+    padding: 10px 15px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    box-shadow: 0 4px 8px  rgb(0, 0, 0, .3);
+}
+/*the service contents*/
+.service{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 30px;
+    margin: 30px;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+}
+@media screen and (max-width:600px){
+    .service{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+        
+    }
+}
+.service div{
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+.service #service-child{
+    color: black;
+}
+#service-child p{
+    color: gray;
+    font-family: sans-serif;
+    
+}
+.service div h4{
+    text-transform: capitalize;
+    margin: 5px;
+    font-family: sans-serif;
+}
+.service div p{
+    color: gray;
+    margin: 1px;
+    font-family: sans-serif;
+    
+}
+.service div img{
+    width: 30px;
+    margin: 10px;
+}
+.service-top{
+    display: flex;
+    position: relative;
+    top: 30px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    justify-content: center;
+
+}
+
+/*the about section*/
+.whychoose{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 30px;
+    flex-wrap: wrap;
+    color: gray;
+    margin: 20px;
+}
+
+.whychoose img{
+    width: 250px;
+}
+.whychoose p{
+    font-family: sans-serif;
+}
+.whychoose-child1{
+    padding: 10px;
+    background-color: rgb(39, 63, 72);
+    color: white;
+    border-radius: 10px;
+}
+.whychoose-child1 h3{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: black;
+}
+.whychoose-child1 ul{
+    list-style-type: none;
+    color: black;
+    font-family: sans-serif;
+}
+/*the members section container*/
+.members{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.members h3{
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+@media screen and (max-width:600px){
+    .members .imagies{
+        display: inline-block;
+    }
+}
+
+/*the tour cities pics*/
+.imagies{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.imagies div img{
+    width: 300px;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0);
+}
+.imagies div{
+    width: 300px;
+}
+.imagies div p{
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, .3);
+    text-transform: capitalize;
+    background-color: rgb(39, 63, 72);
+}
+.imagies div h4{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.imagies-top{
+    display: flex;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    justify-content: center;
+
+}
+
+
+/*the middle contact me page*/
+.middle{
+    background: url(omo/cctv.jpeg) no-repeat center center/cover;
+    filter: brightness(40%);
+}
+.middle .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.contact h3{
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.contact #middle-btn{
+    padding: 10px 20px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    box-shadow: 0 4px 8px  rgb(0, 0, 0, .3);
+}
+
+/*customers testimonia page*/
+.customers h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.customers-top{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+@media screen and (max-width:600px){
+    .customers-top{
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.customers-child p{ 
+  color: gray;
+  margin: 10px;
+}
+.customers-child p img{
+    width: 30px;
+}
+.customers-child #flex img{
+   width: 100px;
+   border-radius: 30px;
+}
+.customers-child{
+    width: 250px;
+    box-shadow: 0 4px 8px;
+}
+#flex{
+    font-family: sans-serif;
+    display: flex;
+    width: 100px;
+    gap: 1rem;
+}
+
+/*the footer elements*/
+footer{
+    background-color: rgb(237, 232, 232);
+}
+.footer-child{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-image{
+    float: right;
+}
+.footer-image img{
+    width: 20px;
+    margin: 10px;
+}
